@@ -1,0 +1,165 @@
+.part3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(38, 210, 161, 0.2);
+  gap: 50px;
+}
+
+.rectangleArea {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  padding: 30px 80px;
+}
+
+.textArea {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #003122;
+  font-size: 25px;
+  padding: 100px;
+}
+
+.leftPart {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Rectangle1 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: #08644a;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.078);
+
+  position: absolute;
+  top: 180px;
+  left: 90px;
+}
+.Rectangle2 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: #08644a;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.078);
+  position: absolute;
+  bottom:180px;
+  left: 90px;
+}
+.rightPart {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.box1 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: #08644a;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.078);
+
+  position: absolute;
+  top: 140px;
+  left: 450px;
+}
+.box2 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: #08644a;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.078);
+
+  position: absolute;
+
+  bottom: 140px;
+  left: 450px;
+}
+.rectangleArea p {
+  font-size: 18px;
+}
+
+.Heading {
+  color: #08644a;
+  position: absolute;
+  left: 300px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1430px){
+
+    .Rectangle1{
+    
+    }
+    
+    .Rectangle2{
+    
+    }
+    
+    .box1{
+    
+    }
+    
+    .box2{
+    
+    }
+    
+    .Heading{
+    
+    
+    }
+    }
